@@ -9,22 +9,19 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Variabel
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Seperti bahasa pemrograman lainnya, R menggunakan variabel, aturan nama variabel sama dengan bahasa lainnya, yaitu :
+1. Variabel dijinkan kombinasi huruf, angka, titik dan garis bawah (underscore).
+2. Diawali dengan huruf atau titik, jika berawal dengan titik, tidak bisa menggunakan angka.
+3. Keyword yang ditetapkan R tidak bisa menjadi variabel.
+4. Membedakan penggunaan huruf besar dan kecil (case sensitive)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Variabel memiliki tipe data tetapi tidak perlu secara eksplisit dituliskan tipe datanya.
+Deklarasi variabel pada R cukup dengan memasukkan nilai kedalam variabelnya menggunakan operator:
+1. = 
+2. <-
 
-```{r cars}
-summary(cars)
-```
+## Karakter
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Contoh-contoh sebagai berikut
